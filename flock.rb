@@ -2,9 +2,9 @@ require 'formula'
 
 class Flock < Formula
   homepage 'https://github.com/amaterasu-/flock'
-  version '0.2.4'
+  version '0.2.5'
   url "https://github.com/amaterasu-/flock/releases/download/v#{version}/flock-#{version}.tar.xz"
-  sha256 'e10852829efed4759cd8eca0a9e6a34b61d554a59cf24d54631643fe714c8d84'
+  sha256 'ae57b632631784e075f60f45023e2038b3b93745a223cfe5ed2d9e3afecf4d56'
 
   def install
     system './configure', '--disable-debug',
